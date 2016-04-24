@@ -14,5 +14,8 @@ namespace Template.Models
 
         [Required]
         public ApplicationUser Sender { get; set; }
+
+        [Required]
+        public ApplicationUser Recipient { get; set; }
     }
 }
