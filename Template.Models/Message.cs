@@ -11,5 +11,8 @@ namespace Template.Models
     {
         [Key]
         public int Id { get; set; }
+
+        [Required]
+        public ApplicationUser Sender { get; set; }
     }
 }
