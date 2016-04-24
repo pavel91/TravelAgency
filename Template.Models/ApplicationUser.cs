@@ -17,6 +17,7 @@ namespace Template.Models
         private ICollection<Comment> comments;
         //private ICollection<Destination> destinations;
         //private ICollection<Destination> destinations;
+        //private ICollection<Destination> destinations;
 
         public ApplicationUser()
         {
