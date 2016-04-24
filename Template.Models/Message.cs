@@ -17,5 +17,7 @@ namespace Template.Models
 
         [Required]
         public ApplicationUser Recipient { get; set; }
+
+        //test1
     }
 }
